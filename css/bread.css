@@ -33,3 +33,21 @@ ul li ul li:hover a {
 	* {
  box-sizing: border-box;
 }
+
+.red{
+	background-color: red
+}
+
+.blue{
+	background-color: blue
+}
+[class*="col-"] {
+ float: left;
+ padding: 15px;
+ border: 1px solid red;
+}
+.row:after {
+ content: "";
+ clear: both;
+ display: block;
+}
