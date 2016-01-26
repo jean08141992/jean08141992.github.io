@@ -29,3 +29,7 @@ ul li ul li:hover{
 
 ul li ul li:hover a {
 	color:#9A5927;}
+
+	* {
+ box-sizing: border-box;
+}
