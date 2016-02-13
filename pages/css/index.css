@@ -1,0 +1,65 @@
+.red {
+    background-color: red;
+    height: 100px;
+    border:3px solid black;
+}
+
+.blue {
+    background-color: blue;
+    height: 100px;
+}
+.lime{
+	background-color: lime;
+    height: 100px;
+}
+
+.purple{
+	background-color: purple;
+    height: 100px;
+}
+.one {
+    background-color: orange;
+    height: 300px;
+}
+
+.two {
+    background-color: yellow;
+    height: 300px;
+}
+
+.three {
+    background-color: green;
+    height: 300px;
+}
+
+.four {
+    background-color: yellow;
+    height: 300px;
+}
+
+.five {
+    background-color: green;
+    height: 300px;
+}
+
+.six {
+    background-color: orange;
+    height: 300px;
+}
+video {
+position: fixed;
+z-index: -100;
+width: 100%;
+}
+
+#jumbo {
+ position: relative;
+ opacity: 0.7;
+ }
+#jumbo video{
+ position: absolute;
+ top:0px;
+ left:0px;
+ width: 100%;
+  z-index: -100;
+}
