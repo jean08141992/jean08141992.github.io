@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .list {
     position: fixed;
     top: 0px;
@@ -105,3 +106,58 @@ ul li ul li:hover {
 ul li ul li:hover a {
     color: #9A5927;
 }
+=======
+
+ul li{
+	float:left;
+	display:block;
+	background-color:#9A5927;
+	width:150px;
+	text-align:center;
+	line-height: 50px;
+	font-size: 14pt;
+}
+
+ul li a{
+	color:#F9f59a;
+	text-decoration: none;
+}
+
+ul li ul{
+		display:none;
+}
+
+ul li:hover ul{	display:block;
+}
+
+ul li:hover {
+	background-color: #ba7947;
+}
+ul li ul li:hover{
+	background-color: #F9f59a;}
+
+ul li ul li:hover a {
+	color:#9A5927;}
+
+	* {
+ box-sizing: border-box;
+}
+
+.red{
+	background-color: red
+}
+
+.blue{
+	background-color: blue
+}
+[class*="col-"] {
+ float: left;
+ padding: 15px;
+ border: 1px solid red;
+}
+.row:after {
+ content: "";
+ clear: both;
+ display: block;
+}
+>>>>>>> origin/master
