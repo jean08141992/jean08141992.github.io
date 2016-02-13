@@ -1,0 +1,107 @@
+.list {
+    position: fixed;
+    top: 0px;
+    font-family: "微軟正黑體", "Microsoft JhengHei";
+}
+
+h3 {
+    font-size: 32px;
+    text-align: center;
+        color: #7C2207;
+}
+
+div img {
+    display: block;
+    margin: auto;
+    padding: 15px;
+}
+
+div h2 {
+    padding: 15px;
+    color: #7C2207;
+    border: dashed 2px;
+    font-size: 32px;
+    text-align: center;
+    font-family: "微軟正黑體", "Microsoft JhengHei";
+}
+
+div h4 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #7C2207;
+    text-decoration: underline;
+    font-size: 24px;
+    text-align: center;
+    font-family: "微軟正黑體", "Microsoft JhengHei";
+}
+
+div p {
+    margin: 10px;
+    text-align: center;
+}
+
+ul li {
+    float: left;
+    display: block;
+    background-color: #9A5927;
+    width: 150px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14pt;
+    font-family: "微軟正黑體", "Microsoft JhengHei";
+}
+
+ul li a {
+    color: #F9f59a;
+    text-decoration: none;
+    font-family: "微軟正黑體", "Microsoft JhengHei";
+}
+
+#good {
+    margin-top: 30px;
+    float: left;
+    text-align: center;
+    width: 430px;
+    background-color: #FBEFA7;
+    font-family: "微軟正黑體", "Microsoft JhengHei";
+}
+
+#feature {
+    margin-top: 30px;
+    text-align: center;
+    float: left;
+    margin-right: 25px;
+    margin-left: 25px;
+    width: 430px;
+    background-color: #FBEFA7;
+    font-family: "微軟正黑體", "Microsoft JhengHei";
+}
+
+#bad {
+    margin-top: 30px;
+    float: right;
+    text-align: center;
+    width: 430px;
+    background-color: #FBEFA7;
+    font-family: "微軟正黑體", "Microsoft JhengHei";
+}
+
+ul li ul {
+    display: none;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+ul li:hover {
+    background-color: #ba7947;
+}
+
+ul li ul li:hover {
+    background-color: #F9f59a;
+}
+
+ul li ul li:hover a {
+    color: #9A5927;
+}
