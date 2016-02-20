@@ -1,5 +1,8 @@
 .list {
     position: fixed;
+    width:100%;
+    height: 50px;
+    background-color: #9A5927;
     top: 0px;
     font-family: "微軟正黑體", "Microsoft JhengHei";
 }
